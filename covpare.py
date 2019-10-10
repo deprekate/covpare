@@ -50,7 +50,6 @@ plt.ylabel('scaled')
 
 #fig.add_patch(rect)
 d = (file1 - res.x * file2)
-print(d)
 mn = np.mean(d)
 sd = np.std(d)
 ind = np.where((d > mn+(2*sd)) | (d < mn-(2*sd)))
