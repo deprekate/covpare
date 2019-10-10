@@ -3,7 +3,7 @@ A program to compare the read coverages of two genome assemblies
 
 ## To Install
 ```
-git clone git@github.com:deprekate/convpare.git
+git clone git@github.com:deprekate/covpare.git
 cd covpare
 make
 ```
