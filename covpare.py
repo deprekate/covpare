@@ -50,9 +50,10 @@ plt.ylabel('scaled')
 
 #fig.add_patch(rect)
 d = (file1 - res.x * file2)
+print(d)
 mn = np.mean(d)
 sd = np.std(d)
-ind = np.where(d > mn+(2*sd))
+ind = np.where((d > mn+(2*sd)) | (d < mn-(2*sd)))
 for loc in ind[0]:
 	#fig.patches.extend([Rectangle((loc*10,100),40,30,linewidth=1,edgecolor='r',facecolor='none')])
 	plt.gca().add_patch(
