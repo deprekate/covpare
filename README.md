@@ -16,7 +16,7 @@ python covpare.py FILE1 FILE2
 ## Testing
 To test whether your covpare install is working correctly, you can run the command:
 ```
-python covpare.py tests/coverage1.tsv tests/coverage2.tsv
+python covpare.py tests/file1.tsv tests/file2.tsv
 ```
 
 
