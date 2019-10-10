@@ -8,7 +8,7 @@ python covpare.py FILE1 FILE2
 ```
 
 ## Testing
-To test whether your ReadMapper install is working correctly, you can run the command:
+To test whether your covpare install is working correctly, you can run the command:
 ```
 python covpare.py tests/coverage1.tsv tests/coverage2.tsv
 ```
