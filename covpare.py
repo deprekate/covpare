@@ -46,7 +46,7 @@ plt.subplot(4, 1, 4)
 plt.bar(x_pos, file1, align='center', color='red',alpha=0.5, width=1)
 plt.bar(x_pos, file2 * res.x, align='center', color='blue', alpha=0.5, width=1)
 plt.xlabel('Position on Genome')
-plt.ylabel('normalized')
+plt.ylabel('scaled')
 
 #fig.add_patch(rect)
 d = (file1 - res.x * file2)
