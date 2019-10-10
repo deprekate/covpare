@@ -1,6 +1,12 @@
 # covpare
 A program to compare the read coverages of two genome assemblies
 
+## To Install
+```
+git clone git@github.com:deprekate/convpare.git
+cd covpare
+make
+```
 
 ## Quick start
 ```sh
